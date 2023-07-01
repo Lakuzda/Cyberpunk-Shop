@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: "CyberpunkRegular";
+    src:url(./assets/fonts/Cyberpunk-Regular.ttf);
+}
+
+@font-face {
+    font-family: "CyberpunkFont";
+    src:url(./assets/fonts/Cyberpunk_default.ttf);
+}
+
+html,
+body {
+    // background-color: rgb(39, 24, 24);
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: "CyberpunkFont", sans-serif; }
