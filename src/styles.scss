@@ -11,8 +11,11 @@
 
 html,
 body {
-    // background-color: rgb(39, 24, 24);
+    background:url(assets/images/Redwood_Market.webp);
+    background-position:  0 -300px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 html, body { height: 100%; }
-body { margin: 0; font-family: "CyberpunkFont", sans-serif; }
+body { margin: 0; font-family: "CyberpunkFont", sans-serif; background:linear-gradient(0deg, rgb(39, 0, 0, 1) 30%, rgb(0, 0, 0, 0) 100%)}
