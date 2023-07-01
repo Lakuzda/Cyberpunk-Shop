@@ -2,21 +2,23 @@
 }
 
 h1 {
-    font-family: 'CyberpunkRegular';
-    color: red;
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    font-size: 84px;
-    line-height: 84px;
-    text-align: center;
-    position: relative;
-    top: 570px;
-    height: 0;
+  font-family: "CyberpunkFont";
+  color: red;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    2px 2px 0 #000;
+  font-size: 124px;
+  line-height: 84px;
+  text-align: center;
+  position: relative;
+  top: 730px;
+  height: 0;
 }
 
 .lian {
-    height: 750px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 500px;
-    background-image: url(../../assets/images/Lian_Seto.webp);
+  height: 750px;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  background-size: 500px;
+  background-image: url(../../assets/images/Lian_Seto.webp);
 }

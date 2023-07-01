@@ -1,21 +1,26 @@
-
 @font-face {
-    font-family: "CyberpunkRegular";
-    src:url(./assets/fonts/Cyberpunk-Regular.ttf);
+  font-family: "CyberpunkRegular";
+  src: url(./assets/fonts/Cyberpunk-Regular.ttf);
 }
 
 @font-face {
-    font-family: "CyberpunkFont";
-    src:url(./assets/fonts/Cyberpunk_default.ttf);
+  font-family: "CyberpunkFont";
+  src: url(./assets/fonts/Cyberpunk_default.ttf);
 }
 
 html,
 body {
-    background:url(assets/images/Redwood_Market.webp);
-    background-position:  0 -300px;
-    background-size: cover;
-    background-repeat: no-repeat;
+  height: 100%;
 }
-
-html, body { height: 100%; }
-body { margin: 0; font-family: "CyberpunkFont", sans-serif; background:linear-gradient(0deg, rgb(39, 0, 0, 1) 30%, rgb(0, 0, 0, 0) 100%)}
+body {
+  margin: 0;
+  font-family: "CyberpunkFont", sans-serif;
+  background: linear-gradient(0deg, rgb(39, 0, 0, 1) 30%, rgb(0, 0, 0, 0) 100%);
+}
+html {
+  background: url(assets/images/Redwood_Market.webp);
+  background-position: 0 -300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  
+}

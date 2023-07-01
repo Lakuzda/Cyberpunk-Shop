@@ -1,1 +1,7 @@
-<app-main-header></app-main-header>
+<ng-container *ngIf="loader">
+    <div class="loader">
+        <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
+    </div>
+</ng-container>
+
+<app-main-header *ngIf="!loader"></app-main-header>
