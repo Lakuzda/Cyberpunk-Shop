@@ -9,16 +9,24 @@ h1 {
   font-size: 124px;
   line-height: 84px;
   text-align: center;
-  position: relative;
-  top: 730px;
   height: 0;
+  position: relative;
+  top: calc(54vh - 10px);
 }
 
 .lian {
-  height: 750px;
+  height: 60vh;
   background-repeat: no-repeat;
   background-position: center;
-
-  background-size: 500px;
+  background-size: 35vh;
   background-image: url(../../assets/images/Lian_Seto.webp);
+}
+
+@media screen and (max-height: 1080px) {
+  // .lian {
+  //   background-size: 400px;
+  // }
+  // h1 {
+  //   top: 640px;
+  // }
 }
